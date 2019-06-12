@@ -14,4 +14,4 @@ ENV FLASK_APP=app.py
 
 ENTRYPOINT [ "gunicorn" ]
 
-CMD [ "-b", "0.0.0.0:8000", "app:app" ]
+CMD [ "-b", "0.0.0.0:8080", "app:app" ]
